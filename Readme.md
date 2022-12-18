@@ -1,7 +1,14 @@
 5.1.3.1 Design consideration of your microservices  
 For my Microservices I have planned to build an console application by splitting components into small services that could be place and operated independently from each other. So I have decided to implement it involving in development, and design of an ride sharing platform console application to store collection of passenger and driver account information upon user creation. As it primary level, each individual microservices of 'ridingplatform.go' and 'userconsole.go' acts as an application in itself. With the structure console of a collection to communicate between each services, I have selected a suitable infrastructure and persistent storage to store data into MYSQL database environment. As with this database engine it's ideal as it provide reliable and fast storage that could support storing of my data. In additional with the intention of this database it allows retrieves data collection and insert information when a user creates or update an account into the various console.  
   
-5.1.3.2 Architecture diagram
+5.1.3.2 Architecture diagram  
+  
+   
+     
+       
+         
+           
+       
 ![Architecture diagram](https://user-images.githubusercontent.com/75166174/208292927-a457571f-9cd7-4184-bb8f-a0a501aa4304.JPG)
 
 
